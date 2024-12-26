@@ -28,20 +28,20 @@
 
 // Question No 7
  // Declare arrays for student names and scores
- var studentNames = ["Michael", "John", "Tony"];
- var studentScores = [320, 230, 480];
- var totalMarks = 500; // Total marks for each student
+ // var studentNames = ["Michael", "John", "Tony"];
+ // var studentScores = [320, 230, 480];
+ // var totalMarks = 500; // Total marks for each student
 
- // Reference the output div
- var outputDiv = document.getElementById("output");
+ // // Reference the output div
+ // var outputDiv = document.getElementById("output");
 
- // Loop through the students and display their scores and percentages
- for (var i = 0; i < studentNames.length; i++) {
-   var percentage = (studentScores[i] / totalMarks) * 100; // Calculate percentage
-   var result = "Score of " + studentNames[i] + " is " + studentScores[i] + ". Percentage: " + percentage.toFixed(2) + "%";
+ // // Loop through the students and display their scores and percentages
+ // for (var i = 0; i < studentNames.length; i++) {
+ //   var percentage = (studentScores[i] / totalMarks) * 100; // Calculate percentage
+ //   var result = "Score of " + studentNames[i] + " is " + studentScores[i] + ". Percentage: " + percentage.toFixed(2) + "%";
    
-   // Create a paragraph element to display the result
-   var paragraph = document.createElement("p");
-   paragraph.textContent = result;
-   outputDiv.appendChild(paragraph);
- }
+ //   // Create a paragraph element to display the result
+ //   var paragraph = document.createElement("p");
+ //   paragraph.textContent = result;
+ //   outputDiv.appendChild(paragraph);
+ // }
